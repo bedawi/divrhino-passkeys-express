@@ -47,6 +47,8 @@ class Register {
                     },
                 ],
                 authenticatorSelection: {
+                    authenticatorAttachment: "cross-platform", // "platform" | "cross-platform"
+                    residentKey: "preferred", // "discouraged" | "preferred" | "required"
                     userVerification: 'preferred',
                 },
             },
